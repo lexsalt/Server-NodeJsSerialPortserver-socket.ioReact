@@ -2,7 +2,7 @@
   "name": "communicating-with-the-serial-port",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,7 @@
   "dependencies": {
     "@serialport/parser-readline": "^8.0.6",
     "express": "^4.18.2",
-    "serialport": "^8.0.7"
+    "serialport": "^8.0.7",
+    "socket.io": "^4.7.2"
   }
 }
