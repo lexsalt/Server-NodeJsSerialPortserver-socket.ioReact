@@ -29,6 +29,10 @@ function onConnection(socket){
     // console.log(socket)
 }
 
+// MACBOOK PORT FOR MICROBIT
+// let port = new SerialPort('/dev/tty.usbmodem14202', {
+// WINDOWS PORT FOR MICROBIT
+//let port = new SerialPort('COM26', {
 let port = new SerialPort('/dev/tty.usbmodem14202', {
     baudRate: 115200,
     autoOpen: false
