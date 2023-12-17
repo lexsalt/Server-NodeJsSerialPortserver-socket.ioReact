@@ -24,9 +24,6 @@ let connectedSocket = null;
 function onConnection(socket){
   console.log("onConnection")
     connectedSocket = socket;
-    // socket.emit("hello", "world");
-    // console.log(connectedSocket)
-    // console.log(socket)
 }
 
 // MACBOOK PORT FOR MICROBIT
