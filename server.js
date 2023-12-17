@@ -24,7 +24,7 @@ let connectedSocket = null;
 function onConnection(socket){
   console.log("onConnection")
     connectedSocket = socket;
-    socket.emit("hello", "world");
+    // socket.emit("hello", "world");
     // console.log(connectedSocket)
     // console.log(socket)
 }
@@ -62,5 +62,4 @@ port.open(() => {
 //    }
 
 // Write the data to the serial port
-// port.write("ROBOT POWER ON");
-// port.write("ROBOT POWER ON");
+// port.write("ON");
